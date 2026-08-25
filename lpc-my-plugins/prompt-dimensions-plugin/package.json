@@ -1,0 +1,13 @@
+{
+  "name": "dsh-prompt-dimensions",
+  "version": "0.1.0",
+  "description": "DSH 插件：按 7 个维度配置 agent 系统提示词",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "system-prompt", "persona"],
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "license": "MIT"
+}

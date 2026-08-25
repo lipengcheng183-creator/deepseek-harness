@@ -1,0 +1,5 @@
+- insert:
+    - id: haier-disclaimer
+      name: dsh-haier-disclaimer
+      config:
+        text: '【本次问答结果来源于海尔公开信息，仅供参考！】'

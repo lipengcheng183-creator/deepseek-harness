@@ -1,0 +1,13 @@
+{
+  "name": "dsh-usage-widget",
+  "version": "0.1.0",
+  "description": "DSH Web 用量挂件：DeepSeek 余额 + 本机累计 token",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "usage", "balance", "token"],
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "license": "MIT"
+}

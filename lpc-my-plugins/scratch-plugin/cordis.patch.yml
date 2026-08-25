@@ -1,0 +1,6 @@
+- insert:
+    # id 不用 hello，避免和 hello-plugin 的 loader id 冲突
+    - id: scratch-greet
+      name: dsh-scratch-plugin
+      config:
+        greeting: 'Hi there'
