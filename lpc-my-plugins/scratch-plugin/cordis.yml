@@ -1,7 +1,0 @@
-# 仅作本地 --patch 调试用；正式请用 profile 安装的 dsh-scratch-plugin（id: scratch-greet）
-# 若与已安装的 hello-plugin / scratch-plugin 同时 patch，会 id 冲突，勿混用。
-- insert:
-    - id: scratch-greet-patch
-      name: 'file:///E:/OneDrive/Desktop/deepseekDevTest/deepseek-harness/lpc-my-plugins/scratch-plugin/src/my-plugin.ts'
-      config:
-        greeting: 'Hi there'

@@ -2,11 +2,11 @@ import { readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-export const name = 'bg-wallpaper'
+export const name = 'plugin-bg-wallpaper'
 export const inject = ['webServer']
 
 const PLUGIN_DIR = dirname(fileURLToPath(import.meta.url))
-const IMAGE_URL = '/plugins/dsh-bg-wallpaper/bg.png'
+const IMAGE_URL = '/plugins/plugin-bg-wallpaper/bg.png'
 /** How strongly the wallpaper shows through (0 = hidden, 1 = full). */
 const DEFAULT_STRENGTH = 0.45
 

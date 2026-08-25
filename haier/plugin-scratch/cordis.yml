@@ -1,0 +1,6 @@
+# 仅作本地 --patch 调试用；正式请用 profile 安装的 plugin-scratch
+- insert:
+    - id: plugin-scratch-patch
+      name: 'file:///E:/OneDrive/Desktop/deepseekDevTest/deepseek-harness/haier/plugin-scratch/src/my-plugin.ts'
+      config:
+        greeting: 'Hi there'

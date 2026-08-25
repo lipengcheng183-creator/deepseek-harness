@@ -1,0 +1,13 @@
+{
+  "name": "plugin-prompt-dimensions",
+  "version": "0.1.0",
+  "description": "Haier 插件：7 维系统提示词 + 演示 skill geam-demo",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "system-prompt", "persona", "skill"],
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "skills"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "license": "MIT"
+}

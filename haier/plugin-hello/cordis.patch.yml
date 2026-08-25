@@ -1,0 +1,3 @@
+- insert:
+    - id: plugin-hello
+      name: plugin-hello

@@ -1,5 +1,5 @@
 {
-  "name": "dsh-usage-widget",
+  "name": "plugin-usage-widget",
   "version": "0.1.0",
   "description": "DSH Web 用量挂件：DeepSeek 余额 + 本机累计 token",
   "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "usage", "balance", "token"],

@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: 'dsh-haier-disclaimer',
+  id: 'plugin-disclaimer',
   factory: (require) => {
     const module = { exports: {} }
     const exports = module.exports

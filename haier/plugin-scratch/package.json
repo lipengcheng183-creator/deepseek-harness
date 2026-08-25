@@ -1,5 +1,5 @@
 {
-  "name": "dsh-scratch-plugin",
+  "name": "plugin-scratch",
   "version": "0.1.0",
   "description": "Scratch greet tool plugin (tutorial)",
   "keywords": ["dsh", "dsh-plugin", "deepseek-harness"],

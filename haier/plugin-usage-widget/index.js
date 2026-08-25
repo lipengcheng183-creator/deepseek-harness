@@ -10,7 +10,7 @@ import path from 'node:path'
  * - injects a floating Web UI via tapIndex + /widget.js
  */
 
-export const name = 'dsh-usage-widget'
+export const name = 'plugin-usage-widget'
 export const inject = ['webServer', 'credentials']
 
 const DSH_HOME = process.env.DSH_HOME || path.join(os.homedir(), '.dsh')
