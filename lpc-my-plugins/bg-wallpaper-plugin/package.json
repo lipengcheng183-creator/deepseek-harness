@@ -1,0 +1,10 @@
+{
+  "name": "dsh-bg-wallpaper",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "assets/bg.png"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

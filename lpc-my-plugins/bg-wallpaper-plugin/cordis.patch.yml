@@ -1,0 +1,6 @@
+- insert:
+    - id: bg-wallpaper
+      name: dsh-bg-wallpaper
+      config:
+        # 0~1：越大背景图越明显（面板越透明）
+        opacity: 0.45

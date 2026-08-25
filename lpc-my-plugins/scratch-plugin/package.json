@@ -1,0 +1,13 @@
+{
+  "name": "dsh-scratch-plugin",
+  "version": "0.1.0",
+  "description": "Scratch greet tool plugin (tutorial)",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness"],
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "src"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "license": "MIT"
+}
